@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Создание презентаций с ИИ — материалы для самостоятельного изучения</title>
+<style>
+*, ::before, ::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif; background: rgb(245,245,247); color: rgb(29,29,31); line-height: 1.55; padding: 20px; }
+.container { max-width: 960px; margin: 0 auto; }
+header { text-align: center; padding: 48px 0 12px; }
+header h1 { font-size: 2em; font-weight: 700; letter-spacing: -0.025em; margin-bottom: 6px; }
+header h1 span { color: rgb(0,102,204); }
+header .sub { color: rgb(110,110,115); font-size: 1.05em; max-width: 640px; margin: 0 auto; }
+header .meta { color: rgb(154,154,159); font-size: 0.85em; margin-top: 10px; }
+.back-link { display: inline-block; margin-top: 14px; padding: 8px 18px; background: rgb(0,102,204); color: #fff; border-radius: 8px; text-decoration: none; font-size: 0.85em; font-weight: 500; }
+.back-link:hover { background: rgb(0,92,184); }
+
+.section-title { font-size: 0.8em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: rgb(110,110,115); margin: 36px 0 12px; }
+
+.card { background: rgb(255,255,255); border-radius: 14px; margin-bottom: 12px; box-shadow: rgba(0,0,0,0.07) 0 1px 3px; overflow: hidden; }
+.card-header { display: flex; align-items: stretch; }
+.card-num { width: 52px; display: flex; align-items: center; justify-content: center; font-size: 1.1em; font-weight: 700; color: rgb(255,255,255); flex-shrink: 0; background: rgb(0,102,204); }
+.card-title-area { flex: 1 1 0%; padding: 16px 20px 12px; }
+.card-title-area h3 { font-size: 1.05em; font-weight: 600; margin: 2px 0 4px; line-height: 1.4; }
+.card-title-area h3 a { color: rgb(0,102,204); text-decoration: none; }
+.card-title-area h3 a:hover { text-decoration: underline; }
+.card-title-area .summary { font-size: 0.9em; color: rgb(60,60,65); margin-bottom: 8px; }
+.card-title-area .useful { font-size: 0.85em; color: rgb(110,110,115); background: rgb(245,245,247); border-left: 3px solid rgb(0,102,204); padding: 8px 12px; border-radius: 0 8px 8px 0; }
+.card-title-area .useful strong { color: rgb(29,29,31); font-weight: 600; }
+
+.cheatsheet { background: rgb(255,255,255); border-radius: 14px; margin: 36px 0 12px; box-shadow: rgba(0,0,0,0.07) 0 1px 3px; padding: 22px 24px; }
+.cheatsheet h2 { font-size: 1.15em; font-weight: 700; margin-bottom: 14px; }
+.cheat-row { display: flex; flex-wrap: wrap; gap: 8px 14px; padding: 7px 0; border-bottom: 1px solid rgb(240,240,242); font-size: 0.9em; align-items: baseline; }
+.cheat-row:last-child { border-bottom: none; }
+.cheat-task { font-weight: 600; flex: 1 1 260px; min-width: 220px; }
+.cheat-arrow { color: rgb(154,154,159); }
+.cheat-tool { color: rgb(0,102,204); font-weight: 500; flex: 1 1 300px; }
+
+footer { text-align: center; padding: 32px 0 20px; color: rgb(154,154,159); font-size: 0.82em; }
+footer a { color: rgb(0,102,204); text-decoration: none; }
+@media (max-width: 600px) {
+  body { padding: 12px; }
+  header h1 { font-size: 1.5em; }
+  .card-num { width: 38px; font-size: 0.9em; }
+  .card-title-area { padding: 12px 14px 8px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>📊 <span>Презентации с ИИ</span></h1>
+  <p class="sub">Дополнительные материалы для самостоятельного изучения — 10 сервисов из практикума «Создание презентаций с ИИ»</p>
+  <p class="meta">Аудитория: коммерческие директора FMCG · AI для FMCG 2026</p>
+  <a class="back-link" href="https://mrvolkomorov.github.io/ai-fmcg-portal/" target="_blank">← Назад к каталогу материалов</a>
+</header>
+
+<div class="section-title">Генераторы — дают готовую деку из текста или файла</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#7b1fa2;">1</div>
+    <div class="card-title-area">
+      <h3><a href="https://gamma.app" target="_blank" rel="noopener">Gamma</a> — gamma.app</h3>
+      <p class="summary">Генератор презентаций, сайтов и документов. Три способа начать: вставить свой текст (три дефиса делят его на карточки), сгенерировать по одной фразе или импортировать файл и ссылку. Есть темы, загрузка своего PPTX-шаблона, аналитика просмотров, экспорт в PPTX, PDF и Google Slides.</p>
+      <p class="useful"><strong>Чем полезно:</strong> быстро собрать квартальный бизнес-ревью, еженедельный отчёт по продажам или план запуска НИ, не тратя вечер на оформление. Пригодится, когда нужно «красиво и за пять минут» к совещанию с федеральной сетью.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#7b1fa2;">2</div>
+    <div class="card-title-area">
+      <h3><a href="https://kimi.com/slides" target="_blank" rel="noopener">Kimi Slides</a> — kimi.com/slides</h3>
+      <p class="summary">Слайды от Moonshot AI: каталог готовых стилей, режим агента, экспорт в PPTX. Модель K2.6 сохраняет редактируемость таймлайнов, схем и воронок; можно загрузить свой шаблон скриншотом.</p>
+      <p class="useful"><strong>Чем полезно:</strong> оперативно собирать деки в фирменном стиле компании и сравнивать разные визуальные подачи одного и того же отчёта перед выбором финальной версии.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#7b1fa2;">3</div>
+    <div class="card-title-area">
+      <h3><a href="https://genspark.ai" target="_blank" rel="noopener">Genspark AI Slides</a> — genspark.ai</h3>
+      <p class="summary">AI Slides: редактор прямо на холсте, встроенная проверка фактов, заметки докладчика, экспорт в PPTX, PDF и Google Slides.</p>
+      <p class="useful"><strong>Чем полезно:</strong> защита питчей и бюджетов с проверенными цифрами. Проверка фактов особенно важна при подготовке материалов, где данные аналитики должны быть безупречны.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-title">Агенты и ресёрч — сами ищут факты, строят графики и верстают слайды</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#e65100;">4</div>
+    <div class="card-title-area">
+      <h3><a href="https://manus.im" target="_blank" rel="noopener">Manus</a> — manus.im</h3>
+      <p class="summary">ИИ-агент: сам изучает источники, ищет картинки, строит графики и верстает слайды. Перед генерацией можно выбрать формат результата и типы диаграмм; загруженный PDF-отчёт агент превращает в полноценную деку.</p>
+      <p class="useful"><strong>Чем полезно:</strong> собрать анализ рынка или аудит категории из загруженного отчёта (Nielsen, Kantar, внутренний research) за один запрос. Полезно для подготовки аналитических материалов на совет директоров.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#e65100;">5</div>
+    <div class="card-title-area">
+      <h3><a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> — claude.ai</h3>
+      <p class="summary">Собирает деку прямо в чате, а с февраля 2026 работает и внутри PowerPoint. Читает мастер-слайды и фирменный шаблон, графики собирает нативными объектами PowerPoint.</p>
+      <p class="useful"><strong>Чем полезно:</strong> подготовка и защита проектов в корпоративном шаблоне без конвертации форматов. Ключевой инструмент, когда финальная дека должна оставаться редактируемой для доработки в офисе.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#e65100;">6</div>
+    <div class="card-title-area">
+      <h3><a href="https://notebooklm.google.com" target="_blank" rel="noopener">Gemini Notebook</a> — notebooklm.google.com</h3>
+      <p class="summary">Бывший NotebookLM: дека строится только по вашим источникам, со ссылками на них.</p>
+      <p class="useful"><strong>Чем полезно:</strong> работа с внутренними документами компании: планы продаж, финансовые отчёты, аудиты. Строго по корпоративным данным — минимум галлюцинаций, каждый факт со ссылкой на источник.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-title">Редакторы с ИИ — шаблоны и ручная доводка в привычном окне</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#00838f;">7</div>
+    <div class="card-title-area">
+      <h3><a href="https://canva.com" target="_blank" rel="noopener">Canva</a> — canva.com</h3>
+      <p class="summary">Дизайн-редактор с ИИ: шаблоны, генерация картинок, каталог приложений (аватары, голос, видео).</p>
+      <p class="useful"><strong>Чем полезно:</strong> финальная ручная доводка, создание маркетинговых материалов для трейд-маркетинговых акций и оформление «полочных» презентаций для переговоров с сетями.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#00838f;">8</div>
+    <div class="card-title-area">
+      <h3><a href="https://microsoft.com/copilot" target="_blank" rel="noopener">Microsoft Copilot</a> — microsoft.com/copilot</h3>
+      <p class="summary">Агентный режим в PowerPoint, тянет данные из Excel и Outlook. Требует корпоративной лицензии Microsoft 365.</p>
+      <p class="useful"><strong>Чем полезно:</strong> автоматическое обновление графиков в квартальных отчётах прямо из Excel, подготовка слайдов на основе писем и данных. Если компания уже на Microsoft 365 — самая бесшовная интеграция.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-title">Российские сервисы — работают без VPN</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#2e7d32;">9</div>
+    <div class="card-title-area">
+      <h3><a href="https://alice.yandex.ru" target="_blank" rel="noopener">Алиса AI</a> — alice.yandex.ru</h3>
+      <p class="summary">Структура, тексты и картинки для слайдов в чате Яндекса. Бесплатно и без VPN.</p>
+      <p class="useful"><strong>Чем полезно:</strong> базовое решение для тех, кто работает без доступа к зарубежным сервисам: быстрая генерация структуры и первичных текстов для отчётов и планов.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-num" style="background:#2e7d32;">10</div>
+    <div class="card-title-area">
+      <h3><a href="https://giga.chat" target="_blank" rel="noopener">GigaChat</a> — giga.chat</h3>
+      <p class="summary">Генерация слайдов с экспортом в PPTX и PDF. Российский сервис, работает без VPN.</p>
+      <p class="useful"><strong>Чем полезно:</strong> работа с данными внутри РФ без рисков для конфиденциальности, а также резервный инструмент при недоступности зарубежных сервисов.</p>
+    </div>
+  </div>
+</div>
+
+<div class="cheatsheet">
+  <h2>🗂 Шпаргалка: как выбрать инструмент</h2>
+  <div class="cheat-row"><span class="cheat-task">Нужно красиво и за пять минут</span><span class="cheat-arrow">→</span><span class="cheat-tool">Gamma</span></div>
+  <div class="cheat-row"><span class="cheat-task">Есть отчёт или исследование</span><span class="cheat-arrow">→</span><span class="cheat-tool">Gemini Notebook · Genspark</span></div>
+  <div class="cheat-row"><span class="cheat-task">Нужно собрать факты с нуля</span><span class="cheat-arrow">→</span><span class="cheat-tool">Manus · Claude</span></div>
+  <div class="cheat-row"><span class="cheat-task">Есть фирменный шаблон PowerPoint</span><span class="cheat-arrow">→</span><span class="cheat-tool">Claude · Copilot</span></div>
+  <div class="cheat-row"><span class="cheat-task">Работа только из России</span><span class="cheat-arrow">→</span><span class="cheat-tool">Алиса AI · GigaChat</span></div>
+  <div class="cheat-row"><span class="cheat-task">Финальная ручная доводка</span><span class="cheat-arrow">→</span><span class="cheat-tool">Canva</span></div>
+</div>
+
+<footer>
+  <p>Материалы к воркшопу Алексея Парфуна «AI для FMCG 2026» · Практикум «Создание презентаций с ИИ»</p>
+  <p style="margin-top:4px;"><a href="https://mrvolkomorov.github.io/ai-fmcg-portal/">Каталог материалов</a> · <a href="https://github.com/mrvolkomorov/ai-fmcg-slides-materials">Репозиторий на GitHub</a></p>
+</footer>
+
+</div>
+</body>
+</html>
